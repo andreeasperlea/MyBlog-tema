@@ -45,7 +45,8 @@ header{
 }
 
 .title {
-    margin-top:50px;
+    font-size: 80px;
+    color:white;
 }
 
 .book img{
@@ -57,6 +58,19 @@ header{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:70px;
+}
+
+.book:hover{
+    border-color:#FEFAE0;
+    color:white;
+    box-shadow: 0 0.5em 0.5em 0 #FEFAE0;
+    transform:translateY(-0.25em);
+    cursor:pointer;
+}
+
+.book{
+    border: 2px solid white;
 }
