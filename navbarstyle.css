@@ -39,3 +39,24 @@ header{
     color:black;
     
 }
+
+.title h2{
+    text-align:center;
+}
+
+.title {
+    margin-top:50px;
+}
+
+.book img{
+    width:200px;
+    height: 350px;
+}
+
+.books{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left:20px;
+    margin-right:20px;
+}
