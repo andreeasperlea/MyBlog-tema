@@ -1,0 +1,27 @@
+body{
+    font-family:'Roboto',sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    background-color:#5F6F52;
+}
+
+button{
+    background-color:#A9B388;
+    color:#FEFAE0;
+    border-color:#B99470;
+    border:4 px;
+    padding:1em 2em;
+    font-family:"Playfair Display", serif;
+    font-size:1em;
+    transition: 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+ 
+button:hover{
+    border-color:#FEFAE0;
+    color:white;
+    box-shadow: 0 0.5em 0.5em 0 #FEFAE0;
+    transform:translateY(-0.25em);
+    cursor:pointer;
+}
